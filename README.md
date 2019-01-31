@@ -1,7 +1,7 @@
 # Demo of SMACK based IoT on DCOS
 Or how to run the SMACK stack on DC/OS with a stream of data.
 
-This repo is based [dcos/demo](https://github.com/dcos/demos/) and contains a scripted installation for DCOS. The orignal manual install steps and description is below to provide context.
+This repo is based on [dcos/demo](https://github.com/dcos/demos/) and contains a scripted installation for DCOS. The orignal manual install steps and description is below to provide context.
 
 ## Scripted Install
 - Prerequisites below are required.
