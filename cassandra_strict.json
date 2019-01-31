@@ -1,0 +1,6 @@
+{
+  "service": {
+    "service_account": "cassandra-iot",
+    "service_account_secret": "cassandra/cassandra-iot"
+  }
+}

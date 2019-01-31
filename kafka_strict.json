@@ -1,0 +1,6 @@
+{
+    "service": {
+        "service_account": "kafka-iot",
+        "service_account_secret": "kafka/kafka-iot"
+    }
+}
