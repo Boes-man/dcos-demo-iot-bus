@@ -52,7 +52,6 @@ or Kafka via the Akka backendsystem.
 - A running [DC/OS 1.11](https://dcos.io/releases/) or higher cluster with at least 4 private agents and 1 public agent each with 2 CPUs and 5 GB of RAM available as well as the [DC/OS CLI](https://docs.mesosphere.com/1.11/cli/) installed in version 0.14 or higher.
 - The JSON query util [jq](https://github.com/stedolan/jq/wiki/Installation) must be installed.
 - [SSH](https://docs.mesosphere.com/1.11/administering-clusters/sshcluster/) cluster access must be set up.
-- The [dcos/demo](https://github.com/dcos/demos/) Git repo must be available locally, use `git clone https://github.com/dcos/demos.git` if you haven't done so, yet.
 
 ## Manual Install
 ### Spark
