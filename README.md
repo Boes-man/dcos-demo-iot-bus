@@ -11,6 +11,7 @@ NOTE: Scripts should only be used used in non production environments, i.e. demo
 - Run install_fastdata-iot.sh eg `cd dcos-demo-iot-bus; ./install_fastdata-iot.sh`
 
 ## Known issues
+- Allow a few minutes for data ingestion post completed build.
 - Intended to run on clean cluster. Running uninstall allows rerunning of install.
 - Uninstall is not complete. So rerunning install after an uninstall may result in errors "Permission exists." "ERR_ACL_EXISTS" or "Could not reach the service scheduler with name spark" which (usually) can be ignored.
 
