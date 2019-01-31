@@ -12,7 +12,7 @@ NOTE: Scripts should only be used used in non production environments, i.e. demo
 
 ## Known issues
 - Intended to run on clean cluster. Running uninstall allows rerunning of install.
-- Uninstall does not remove permissions. So rerunning install will result in "Permission exists." and "ERR_ACL_EXISTS" error which can be ignored.
+- Uninstall is not complete. So rerunning install after an uninstall may result in errors "Permission exists." "ERR_ACL_EXISTS" or "Could not reach the service scheduler with name spark" which (usually) can be ignored.
 
 NOTE: The rest of the readme is for context only.
 ## Original Repo Description from here
