@@ -3,17 +3,12 @@ Or how to run the SMACK stack on DC/OS with a stream of data.
 
 This repo is based on [dcos/demo](https://github.com/dcos/demos/) and contains a scripted installation for DCOS. The orignal manual install steps and description is below to provide context.
 
-NOTE: Scripts should only be used used in non production environments, i.e. demo
+NOTE: Scripts should only be used used in non production environments, i.e. demo. A clean cluster is best.
 
 ## Scripted Install
 - Prerequisites below are required. Has been tested for DCOS 1.12.1
 - Clone this repo locally. `git clone https://github.com/Boes-man/dcos-demo-iot-bus.git`
 - Run install_fastdata-iot.sh eg `cd dcos-demo-iot-bus; ./install_fastdata-iot.sh`
-
-## Known issues
-- Allow a few minutes for data ingestion post completed build.
-- Intended to run on clean cluster. Running uninstall allows rerunning of install.
-- Uninstall is not complete. So rerunning install after an uninstall may result in errors "Permission exists." "ERR_ACL_EXISTS" or "Could not reach the service scheduler with name spark" which (usually) can be ignored.
 
 NOTE: The rest of the readme is for context only.
 ## Original Repo Description from here
