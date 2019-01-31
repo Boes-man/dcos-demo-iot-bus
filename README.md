@@ -1,14 +1,14 @@
 # Demo of SMACK based IoT on DCOS
 Or how to run the SMACK stack on DC/OS with a stream of data.
 
-This repo has been forked from [dcos/demo](https://github.com/dcos/demos/) and contains a scripted installation for DCOS. The orignal manual install steps and description is below to provide context.
+This repo is based [dcos/demo](https://github.com/dcos/demos/) and contains a scripted installation for DCOS. The orignal manual install steps and description is below to provide context.
 
 ## Scripted Install
 - Prerequisites below are required.
 - Clone this repo locally. `git clone https://github.com/Boes-man/dcos-demo-iot-bus.git`
 - Run install_fastdata-iot.sh eg `cd dcos-demo-iot-bus; ./install_fastdata-iot.sh`
 
-
+NOTE: The rest of the readme is for context only.
 ## Original Repo Description from here
 This showcase is contributed by [Achim Nierbeck from codecentric](https://blog.codecentric.de/en/author/achim-nierbeck/), details can be found in the following blog posts:
 
