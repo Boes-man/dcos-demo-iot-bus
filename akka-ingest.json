@@ -5,7 +5,7 @@
   "disk": 0,
   "instances": 1,
   "container": {
-    "type": "MESOS",
+    "type": "DOCKER",
     "volumes": [],
     "docker": {
       "image": "mesosphere/akka-ingest:0.2.2",
